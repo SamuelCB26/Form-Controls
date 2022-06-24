@@ -1,0 +1,44 @@
+/* CSS reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+section {
+  width: 90%;
+  max-width: 700px;
+  border: 1px solid #4d4e53;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.wrapper {
+  border: 1px solid rgb(219, 219, 219);
+  display: flex;
+}
+
+input {
+  border: none;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+input[type="text"] {
+  background-color: rgba(75, 21, 97, 0.5);
+  border-radius: 5px 0px 0px 5px;
+  /* Your code here */
+  flex: 2 0 auto;
+}
+
+input[type="submit"] {
+  background-color: rgba(75, 21, 97, 1);
+  color: #fff;
+  border-radius: 0px 5px 5px 0px;
+  flex: 1 1 auto;
+}
+
+
+
